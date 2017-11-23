@@ -1,0 +1,47 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+header {
+	text-align: center;
+	width: 100%;
+}
+
+main { 
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	border: 2px solid grey;
+	margin-right: 10%;
+	margin-left: 10%;
+	height: 500px;
+}
+
+button{
+		border: none;
+		font-size: 1em;
+		height: 40px;
+}
+
+button:hover{
+	border-bottom: 1px solid pink;
+}
+button:focus{
+	outline: none;
+}
+
+.nav1, .nav2, .nav3{
+	width: 20%;
+	padding-top: 30px;
+}
+
+#contenu1{
+	width: 400%;
+}
+
+#contenu2{
+	width: 300%;
+}
+#contenu3{
+	width: 200%;
+}
